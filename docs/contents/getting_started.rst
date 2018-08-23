@@ -1,8 +1,14 @@
 Getting started
 ===============
 
-Traity Reputation Gateway relies on REY, a decentralized infrastructure for risk scoring based on Ethereum’s blockchain. You will need at least one private key to sign the submitted information. You can learn how to get a new ETH private key here.
-It’s very important to keep this private key safe at every moment.
+Traity Reputation Gateway relies on `REY <https://reputation.network>`_, a decentralized infrastructure for risk scoring based
+on Ethereum’s blockchain.
+You will need at least one private key to sign the submitted information.
+You can learn how to get a new ETH private key `here <https://theethereum.wiki/w/index.php/Accounts,_Addresses,_Public_And_Private_Keys,_And_Tokens#Private_Key>`_.
+
+.. caution::
+
+  It’s very important to keep this private key safe at every moment.
 
 Adding the ReputationGateway to your flow is as easy as redirecting your users to Traity’s onboarding so they can start building their TrustScore. Users should be redirected to one of the following URLs, depending on if you are just testing the platform or do want run actual transactions:
 
@@ -45,9 +51,9 @@ Having that token, now you can add the link into your website. You can customize
 
   <a href="https://rg.traity.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJyZWFkZXIiOiIweGU0YmIzRmI0NmU4Mjc1N2Y5RkM2MmMyMjZmYzE4ODJBMkIxMzhkMmUiLCJ3aWRnZXQiOnsibmFtZSI6IlNpbHBoIENvLiIsImxvZ28iOiJodHRwczovL3B1dS5zaC9BRXlCVy9jMTU0YjE2ZDQwLnBuZyIsImNhbGxiYWNrX3VybCI6Imh0dHBzOi8vZXhhbXBsZS5jb20ifX0.">Connect your Online Reputation wit Traity</a>
 
-Now, you just to have to decide in which part your application’s flow you do you want to include our service. Each business is be different and has its own needs so there might be multiple scenarios to consider:
+Now, you just to have to decide in which part of your application’s flow you do you want to include our service. Each business is be different and has its own needs so there might be multiple scenarios to consider:
 
-For example, a user has followed the traditional flow within your app and according to your current scoring system, that person is not eligible for your product. So, you might want offer them the possibility of using their TrustScore as a complementary data point, increasing your potential customer base from those that were initially rejected.
+For example, a user has followed the traditional flow within your app and according to your current scoring system, that person is not eligible for your product. So, you might want to offer them the possibility of using their TrustScore as a complementary data point, increasing your potential customer base from those that were initially rejected.
 
 Also, you could completely substitute your current data collection flow, which might require some sort of manual review, and replace it with our process to have a reliable score that allows you to make decisions in real time.
 

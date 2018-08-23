@@ -34,11 +34,12 @@ That request will return a JSON document similar to this:
 .. literalinclude:: ../snippets/score.json
 
 .. warning::
-  User's permission will last 24 hours starting at the moment process of building the TrustScore is completed.
+  User's permission will last 24 hours starting at the moment the process of building the TrustScore is completed.
   An error will be raised if score is tried to be accessed with the same token after that period of time.
 
 .. seealso::
-  Reputation Gateway is based on `REY <https://reputation.network>`_, the decentralized risk scoring protocol. More information about the permission token
+  Reputation Gateway is based on `REY <https://reputation.network>`_, the decentralized risk scoring protocol.
+  More information about the permission JWT token and its different claims
   can be found at https://rey.readthedocs.io/en/latest/contents/reference.html
 
 Interpreting the TrustScore
