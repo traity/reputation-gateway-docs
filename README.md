@@ -1,5 +1,5 @@
-REY Documentation
-=================
+Reputation Gateway Documentation
+================================
 
 Documentation files for the [Reputation Gateway](https://traity.com/scoring). Browsable at [reputation-gateway.rtfd.io](https://reputation-gateway.rtfd.io).
 
