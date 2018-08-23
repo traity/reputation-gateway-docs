@@ -13,7 +13,6 @@ Users will be redirected to our site so they can start building their TrustScore
 At that point, you will be able to read their TrustScore to take more and better informed decisions.
 Find the documentation and sample codes to learn how to add the ReputationGateway in just a few minutes:
 
-Learn more about our product at https://traity.com/scoring
 
 Contents
 ========
@@ -25,6 +24,8 @@ Contents
     docs/contents/read_score.rst
     docs/contents/demo.rst
     docs/contents/support.rst
+
+Learn more about our product at https://traity.com/scoring
 
 .. Indices and tables
 .. ==================
