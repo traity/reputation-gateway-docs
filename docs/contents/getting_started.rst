@@ -33,7 +33,9 @@ The session token can be generated as follows:
 
     .. literalinclude:: ../snippets/init_session_app_secret.rb
 
+  .. tab:: Node.js
 
+    .. literalinclude:: ../snippets/init_session_app_secret.js
 
 
 **b) Using your Blockchain key:**
@@ -43,6 +45,9 @@ The session token can be generated as follows:
 
     .. literalinclude:: ../snippets/init_session_eth_key.rb
 
+  .. tab:: Node.js
+
+    .. literalinclude:: ../snippets/init_session_eth_key.rb
 
 .. The session parameter is a JWT token that contains the necessary information to identify you.
 .. It will also indicate where should users be redirected once they finish the process on Traity.

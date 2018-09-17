@@ -24,6 +24,10 @@ This new token should contain the payload you just received and should be includ
     .. literalinclude:: ../snippets/read_score_app_secret.rb
       :language: ruby
 
+  .. tab:: Node.js
+
+    .. literalinclude:: ../snippets/read_score_app_secret.rb
+
 
 **b) Using your Blockchain key:**
 
@@ -39,7 +43,9 @@ With this new bearer token you can make a request to the URL mentioned before:
     .. literalinclude:: ../snippets/read_score_eth_key.rb
       :language: ruby
 
+  .. tab:: Node.js
 
+    .. literalinclude:: ../snippets/read_score_eth_key.js
 
 
 Successful requests made to the score endpoint will return responses similar to this:
