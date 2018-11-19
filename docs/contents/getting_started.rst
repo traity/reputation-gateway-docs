@@ -13,7 +13,7 @@ you when you sign the necessary payloads to communicate with the ReputationGatew
 
 
 You can also have your private key generated and managed by Traity.
-In that case, you will authenticate into our API using the provided ``app id`` and ``app secret``.
+In that case, you will authenticate into our API using the provided ``app id`` and ``app secret`` that available from your developers dashbard at https://developers.traity.com
 
 Adding the ReputationGateway to your flow is as easy as redirecting your users to Traity’s onboarding so they can start building their TrustScore.
 Users should be redirected to the following URL and include a session token.
@@ -37,17 +37,21 @@ The session token can be generated as follows:
 
     .. literalinclude:: ../snippets/init_session_app_secret.js
 
+  .. tab:: PHP
 
-**b) Using your Blockchain key:**
+    .. literalinclude:: ../snippets/init_session_app_secret.php
+      :language: php
 
-.. tabs::
-  .. tab:: Ruby
-
-    .. literalinclude:: ../snippets/init_session_eth_key.rb
-
-  .. tab:: Node.js
-
-    .. literalinclude:: ../snippets/init_session_eth_key.rb
+.. **b) Using your Blockchain key:**
+..
+.. .. tabs::
+..   .. tab:: Ruby
+..
+..     .. literalinclude:: ../snippets/init_session_eth_key.rb
+..
+..   .. tab:: Node.js
+..
+..     .. literalinclude:: ../snippets/init_session_eth_key.rb
 
 .. The session parameter is a JWT token that contains the necessary information to identify you.
 .. It will also indicate where should users be redirected once they finish the process on Traity.

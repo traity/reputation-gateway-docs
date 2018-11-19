@@ -26,26 +26,30 @@ This new token should contain the payload you just received and should be includ
 
     .. literalinclude:: ../snippets/read_score_app_secret.rb
 
+  .. tab:: PHP
 
-**b) Using your Blockchain key:**
+    .. literalinclude:: ../snippets/read_score_app_secret.php
+      :language: php
 
-If you want to use your own blockchain keys, the authorization token needed to get access to the user's score is generated as follows:
-
-- Decode the received the payload and sign the ``hash`` claim with your own private key.
-- Encode this payload including the ``signature`` claim with the signature you just generated into a new JWT token.
-
-With this new bearer token you will be authorized to read the user's TrustScore:
-
-.. tabs::
-  .. tab:: Ruby
-
-    .. literalinclude:: ../snippets/read_score_eth_key.rb
-      :language: ruby
-
-  .. tab:: Node.js
-
-    .. literalinclude:: ../snippets/read_score_eth_key.js
-
+.. **b) Using your Blockchain key:**
+..
+.. If you want to use your own blockchain keys, the authorization token needed to get access to the user's score is generated as follows:
+..
+.. - Decode the received the payload and sign the ``hash`` claim with your own private key.
+.. - Encode this payload including the ``signature`` claim with the signature you just generated into a new JWT token.
+..
+.. With this new bearer token you will be authorized to read the user's TrustScore:
+..
+.. .. tabs::
+..   .. tab:: Ruby
+..
+..     .. literalinclude:: ../snippets/read_score_eth_key.rb
+..       :language: ruby
+..
+..   .. tab:: Node.js
+..
+..     .. literalinclude:: ../snippets/read_score_eth_key.js
+..
 
 Successful requests made to the score endpoint will return responses similar to this:
 
