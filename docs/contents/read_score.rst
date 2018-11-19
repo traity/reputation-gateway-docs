@@ -9,9 +9,7 @@ There are two approaches to read a user's score. One is using the secret you got
 and second one is to use the decentralized option, where you can use your own blockchain keys to sign the request and get access to the user's score.
 In both cases, a bearer token will be generated and you will be to read the users score by making a `GET` http request to the following URI:
 
-===========================  ===========================
-**Score endpoint**              https://rg.traity.com/score
-===========================  ===========================
+:guilabel:`https://rg.traity.com/score`
 
 **a) Using your application secret:**
 
@@ -27,11 +25,12 @@ This new token should contain the payload you just received and should be includ
 
 **b) Using your Blockchain key:**
 
-If you want to use your own blockchain keys, the authorization token need to get access to the user's score is generated as follows:
-- Decode the received the payload and sign the `hash` claim with your own private key.
+If you want to use your own blockchain keys, the authorization token needed to get access to the user's score is generated as follows:
+
+- Decode the received the payload and sign the ``hash`` claim with your own private key.
 - Encode this payload including the ``signature`` claim with the signature you just generated into a new JWT token.
 
-With this new bearer token you can make a request to the URL mentioned before:
+With this new bearer token you will be authorized to read the user's TrustScore:
 
 .. tabs::
   .. tab:: Ruby
