@@ -2,7 +2,7 @@
   // php-jwt is used in this example: https://github.com/firebase/php-jwt
   use \Firebase\JWT\JWT;
 
-  $url           = 'http://rg.traity.com/score';
+  $url           = 'https://rg.traity.com/score';
   $authorization = JWT::encode(array('request' => $_GET['request']), APP_SECRET);
   $header        = array('Accept: application/json',
                          'Authorization: Bearer '.$authorization);
